@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalog</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ed6e80eef6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="app">
+        <header class="header">
+            <div class="wrap header-wrap">
+                <div class="logo">
+                    <a href="index.html"><img src="img/index/logo.svg" alt="logo"></a>
+                    <search-form></search-form>
+                </div>
+
+                <div class="account">
+                    <details class="details">
+                        <summary class="strips"><img src="img/index/strips.svg" alt="strips"></summary>
+                        <div class="main">
+                            <a href="#" class="cross">&#215;</a>
+                            <p class="menu1">MENU</p>
+                            <ul class="subtitle">MAN
+                                <li><a href="#">Accessories</a></li>
+                                <li><a href="#">Bags</a></li>
+                                <li><a href="#">Denim</a> </li>
+                                <li><a href="#">T-Shirts</a></li>
+                            </ul>
+                            <ul class="subtitle">WOMAN
+                                <li><a href="#">Accessories</a> </li>
+                                <li><a href="#">Jackets & Coats</a> </li>
+                                <li><a href="#">Polos</a> </li>
+                                <li><a href="#">T-Shirts</a> </li>
+                                <li><a href="#">Shirts</a> </li>
+                            </ul>
+                            <ul class="subtitle">KIDS
+                                <li><a href="#">Accessories</a> </li>
+                                <li><a href="#">Jackets & Coats</a> </li>
+                                <li><a href="#">Polos</a> </li>
+                                <li><a href="#">T-Shirts</a> </li>
+                                <li><a href="#">Shirts</a> </li>
+                                <li><a href="#">Bags</a> </li>
+                            </ul>
+                        </div>
+
+                    </details>
+                    <a href="Registration.html"><img src="img/index/human.svg" alt="human"></a>
+                    <div class="cart">
+                        <cart ref="btn-cart"></cart>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <section class="arrival">
+            <div class="wrap arrivals-wrap">
+                <div class="name">
+                    <h1 class="new">NEW ARRIVALS</h1>
+                </div>
+
+                <div class="way">
+                    <a href="index.html" class="home">HOME/</a>
+                    <a href="#" class="men">MEN/</a>
+                    <a href="#" class="new-arrivals">NEW ARRIVALS</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="choice">
+            <div class="wrap choice-wrap">
+                <details class="boss">
+                    <summary class="filter"><span>FILTER</span> <img src="img/catalog/short_stripes.svg" alt="short_stripes"> <img src="img/catalog/big_stripes.svg" alt="big_stripes"></summary>
+                    <div class="first1">
+                        <ul class="first">
+                            <details class="subordinates">
+                                <summary class="summary">CATEGORY</summary>
+                                <li><a href="#">Accessories</a></li>
+                                <li><a href="#">Bags</a> </li>
+                                <li><a href="#">Denim</a> </li>
+                                <li><a href="#">Hoodies & Sweatshirts</a> </li>
+                                <li><a href="#">Jackets & Coats</a> </li>
+                                <li><a href="#">Polos</a> </li>
+                                <li><a href="#">Shirts</a> </li>
+                                <li><a href="#">Shoes</a> </li>
+                                <li><a href="#">Sweaters & Knits</a> </li>
+                                <li><a href="#">T-Shirts</a> </li>
+                                <li><a href="#">Tanks</a> </li>
+                            </details>
+                        </ul>
+                        <ul class="first2">
+                            <details class="subordinates">
+                                <summary class="summary">BRAND</summary>
+                            </details>
+                        </ul>
+                        <ul class="first3">
+                            <details class="subordinates">
+                                <summary class="summary">DESIGNER</summary>
+                            </details>
+                        </ul>
+                    </div>
+                </details>
+                <div class="sorting">
+                    <details class="now">
+                        <summary>TRENDING NOW <i class="fas fa-chevron-down"></i></summary>
+                    </details>
+                    <details class="sizes">
+                        <summary>SIZE <i class="fas fa-chevron-down"></i></summary>
+                        <div class="checkbox">
+                            <div class="XS">
+                                <input class="XS" type="checkbox" value="XS">
+                                <label for="XS">XS</label>
+                            </div>
+                            <div class="S">
+                                <input class="S" type="checkbox" value="S">
+                                <label for="S">S</label>
+                            </div>
+                            <div class="M">
+                                <input class="M" type="checkbox" value="M">
+                                <label for="M">M</label>
+                            </div>
+                            <div class="L">
+                                <input class="L" type="checkbox" value="L">
+                                <label for="L">L</label>
+                            </div>
+
+                        </div>
+
+                    </details>
+                    <details class="sorting-price">
+                        <summary>PRICE <i class="fas fa-chevron-down"></i></summary>
+                    </details>
+                </div>
+            </div>
+        </section>
+        <section class="card">
+            <div class="wrap wrap-card">
+
+                <products_cell ref="products_cell"></products_cell>
+
+                <div class="pages">
+                    <i class="fas fa-angle-left"></i>
+                    <a href="#" class="page">1</a>
+                    <a href="#" class="page">2</a>
+                    <a href="#" class="page">3</a>
+                    <a href="#" class="page">4</a>
+                    <a href="#" class="page">5</a>
+                    <a href="#" class="page">6...</a>
+                    <a href="#" class="page">20</a>
+                    <i class="fas fa-angle-right"></i>
+                </div>
+            </div>
+        </section>
+
+        <section class="feedback">
+            <div class="wrap feedback-wrap">
+                <div class="review">
+                    <img src="img/index/photo.svg" alt="photo">
+                    <p class="wishes">“Vestibulum quis porttitor dui! Quisque <br> viverra nunc mi, <i>a pulvinar purus <br> condimentum“</i></p>
+                </div>
+                <div class="mail">
+                    <p class="promotion"><b>SUBSCRIBE</b> <br> FOR OUR NEWLETTER AND PROMOTION</p>
+                    <form action="#" class="subscribe"></form>
+                    <input class="field" type="email" placeholder="Enter Your Email">
+                    <input class="btn" type="submit" value="Subscribe">
+                    </form>
+                </div>
+
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="wrap footer-wrap">
+                <div class="copy">
+                    <p>© 2021 Brand All Rights Reserved.</p>
+                </div>
+                <div class="social">
+                    <button>
+                    <i class="fab fa-facebook-f"></i>
+                </button>
+                    <button>
+                    <i class="fab fa-instagram"></i>
+                </button>
+                    <button>
+                    <i class="fab fa-pinterest-p"></i>
+                </button>
+                    <button>
+                    <i class="fab fa-twitter"></i>
+                </button>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="CartComp.js"></script>
+    <script src="ProductComp.js"></script>
+    <script src="SearchComp.js"></script>
+    <script defer src="index.js"></script>
+
+</body>
+
+</html>
