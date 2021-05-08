@@ -16,7 +16,14 @@
             <div class="wrap header-wrap">
                 <div class="logo">
                     <a href="index.html"><img src="img/index/logo.svg" alt="logo"></a>
-                    <search-form></search-form>
+
+                    <form action="#" class="search-form" @submit.prevent="filter">
+                        <input type="text" class="search-field" v-model = "userFilter">
+                        <button class="btn-search" type="submit">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </form>
+
                 </div>
 
                 <div class="account">
@@ -50,13 +57,19 @@
 
                     </details>
                     <a href="Registration.html"><img src="img/index/human.svg" alt="human"></a>
+                    
                     <div class="cart">
-                        <cart ref="btn-cart"></cart>
+                        <button class="btn-cart" type="button" @click="showCart = !showCart"><img src="img/index/basket.svg" alt="basket"></button>
+
+                        <cart :cart-items="cartItems"
+                            :visibility="showCart"
+                            @remove="remove">
+                        </cart>
+
                     </div>
                 </div>
             </div>
         </header>
-
 
         <section class="arrival">
             <div class="wrap arrivals-wrap">
@@ -141,7 +154,7 @@
         <section class="card">
             <div class="wrap wrap-card">
 
-                <products_cell ref="products_cell"></products_cell>
+                <products_cell :content="filtered" @add-product = "addProduct"></products_cell>
 
                 <div class="pages">
                     <i class="fas fa-angle-left"></i>
@@ -197,10 +210,9 @@
         </footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
-    <script src="CartComp.js"></script>
-    <script src="ProductComp.js"></script>
-    <script src="SearchComp.js"></script>
-    <script defer src="index.js"></script>
+    <script src="JS/CartComp.js"></script>
+    <script src="JS/ProductComp.js"></script>
+    <script defer src="JS/index.js"></script>
 
 </body>
 
