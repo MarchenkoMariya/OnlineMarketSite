@@ -1,0 +1,1 @@
+(()=>{"use strict";const o=o=>10*o;var s;console.log((s=5,o(2)+o(s)))})();

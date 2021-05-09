@@ -12,7 +12,7 @@ let change = (cart, req) => {
 
     find.quantity = req.body.quantity;
 
-    var newData = cart;
+    let newData = cart;
 
     if (find.quantity < 1){
 
