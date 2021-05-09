@@ -1,0 +1,64 @@
+[{
+  "id": "1",
+  "title": "Кепка",
+  "description": "Known for her sculptural takes on traditional <br> tailoring, Australian arbiter of cool Kym Ellery teams <br> up with Moda Operandi.",
+  "price": 52.00,
+  "img": "img/catalog/prod1.png"
+},
+  {
+    "id": "2",
+    "title": "Джинсы",
+    "description": "Known for her sculptural takes on traditional <br> tailoring, Australian arbiter of cool Kym Ellery teams <br> up with Moda Operandi.",
+    "price": 62.00,
+    "img": "img/catalog/prod2.png"
+  },
+  {
+    "id": "3",
+    "title": "Футболка",
+    "description": "Known for her sculptural takes on traditional <br> tailoring, Australian arbiter of cool Kym Ellery teams <br> up with Moda Operandi.",
+    "price": 72.00,
+    "img": "img/catalog/prod3.png"
+  },
+  {
+    "id": "4",
+    "title": "Куртка",
+    "description": "Known for her sculptural takes on traditional <br> tailoring, Australian arbiter of cool Kym Ellery teams <br> up with Moda Operandi.",
+    "price": 82.00,
+    "img": "img/catalog/prod4.png"
+  },
+  {
+    "id": "5",
+    "title": "Кеды",
+    "description": "Known for her sculptural takes on traditional <br> tailoring, Australian arbiter of cool Kym Ellery teams <br> up with Moda Operandi.",
+    "price": 92.00,
+    "img": "img/catalog/prod5.png"
+  },
+  {
+    "id": "6",
+    "title": "Брюки",
+    "description": "Known for her sculptural takes on traditional <br> tailoring, Australian arbiter of cool Kym Ellery teams <br> up with Moda Operandi.",
+    "price": 152.00,
+    "img": "img/catalog/prod6.png"
+  },
+  {
+    "id": "7",
+    "title": "Рубашка",
+    "description": "Known for her sculptural takes on traditional <br> tailoring, Australian arbiter of cool Kym Ellery teams <br> up with Moda Operandi.",
+    "price": 252.00,
+    "img": "img/catalog/prod6.png"
+  },
+  {
+    "id": "8",
+    "title": "Валенки",
+    "description": "Known for her sculptural takes on traditional <br> tailoring, Australian arbiter of cool Kym Ellery teams <br> up with Moda Operandi.",
+    "price": 352.00,
+    "img": "img/catalog/prod8.png"
+  },
+  {
+    "id": "9",
+    "title": "Кофта",
+    "description": "Known for her sculptural takes on traditional <br> tailoring, Australian arbiter of cool Kym Ellery teams <br> up with Moda Operandi.",
+    "price": 452.00,
+    "img": "img/catalog/prod9.png"
+  }
+]
